@@ -1,0 +1,23 @@
+type Project @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  documents: AWSJSON!
+  employee: String!
+  status: String!
+  start_timestamp: AWSDate!
+  end_timestamp: AWSDate!
+  employees: [Employee] @manyToMany(relationName: "EmployeeProject")
+}
+
+type Employee @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  firstname: String!
+  lastname: String!
+  username: AWSEmail!
+  password: String!
+  role: String!
+  linemanager: String!
+  capacity: Int!
+  EmployeeToProjects: [Project] @manyToMany(relationName: "EmployeeProject")
+}
+ 

@@ -1,0 +1,20 @@
+{
+  "clone": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-projectmanagementsys-clone-122816-authRole",
+      "UnauthRoleArn": "arn:aws:iam::151750682706:role/amplify-projectmanagementsys-clone-122816-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::151750682706:role/amplify-projectmanagementsys-clone-122816-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-projectmanagementsys-clone-122816-deployment",
+      "UnauthRoleName": "amplify-projectmanagementsys-clone-122816-unauthRole",
+      "StackName": "amplify-projectmanagementsys-clone-122816",
+      "StackId": "arn:aws:cloudformation:us-east-1:151750682706:stack/amplify-projectmanagementsys-clone-122816/fb178d30-64e0-11ed-bdef-126828afecc1",
+      "AmplifyAppId": "d2bgyoim8y9dsf"
+    },
+    "categories": {
+      "auth": {
+        "projectmanagementsysc603a9bd": {}
+      }
+    }
+  }
+}
